@@ -1,0 +1,5 @@
+**** GENERATED AUTOMATICALLY **** 2023-08-25 09:03:46
+BACKUP FREQUENCY:'Hourly'
+MAIN:'C:\Users\39351\Desktop\Gravity Square Social_Backup'
+BACKUP:'C:\Users\39351\Desktop\Gravity Square Social_Backup_Backup'
+LOG PATH:'C:\Users\39351\Desktop\\log.txt'

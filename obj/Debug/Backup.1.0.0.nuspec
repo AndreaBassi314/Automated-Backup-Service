@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Backup</id>
+    <version>1.0.0</version>
+    <authors>Backup</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="System.ServiceProcess.ServiceController" version="7.0.1" exclude="Build,Analyzers" />
+        <dependency id="TaskScheduler" version="2.10.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\39351\Desktop\Test\Backup\bin\Debug\net7.0\Backup.runtimeconfig.json" target="lib\net7.0\Backup.runtimeconfig.json" />
+    <file src="C:\Users\39351\Desktop\Test\Backup\bin\Debug\net7.0\Backup.dll" target="lib\net7.0\Backup.dll" />
+  </files>
+</package>

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "/WFG+7WicA+XYbEDV1AYNd1ueaDh5qjJx/VqEtCW21mZjJVhKME+2ZAW2EUQMp784fFiMAWgylX26xh9wM9bOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\39351\\Desktop\\Test\\Backup\\Backup.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\39351\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\39351\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\39351\\.nuget\\packages\\system.diagnostics.eventlog\\7.0.0\\system.diagnostics.eventlog.7.0.0.nupkg.sha512",
+    "C:\\Users\\39351\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\39351\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\39351\\.nuget\\packages\\system.serviceprocess.servicecontroller\\7.0.1\\system.serviceprocess.servicecontroller.7.0.1.nupkg.sha512",
+    "C:\\Users\\39351\\.nuget\\packages\\taskscheduler\\2.10.1\\taskscheduler.2.10.1.nupkg.sha512"
+  ],
+  "logs": []
+}
