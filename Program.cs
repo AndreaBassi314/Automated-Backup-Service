@@ -6,13 +6,13 @@ using System.Collections;
 using System.Text.RegularExpressions;
 using Microsoft.Win32.TaskScheduler;
 
-
 namespace BackupService
 {
     public class Program
     {
         public static string backupFrequency = "", mainFolder = "", backupFolder = "", logPath = "";
-        static string configPath = "config.txt";
+        static string currentDirectory = AppDomain.CurrentDomain.BaseDirectory;
+        static string configPath = Path.Combine(currentDirectory, "config.txt");
         
         static void Main(string[] args)
         {
@@ -30,7 +30,7 @@ namespace BackupService
             else
             {
                 Setup();
-                Backup.DoBackup();
+                //Backup.DoBackup();
             }
         }
 
@@ -269,6 +269,9 @@ namespace BackupService
 
                 // Register the task
                 taskService.RootFolder.RegisterTaskDefinition("Automated Backup Service", taskDefinition);
+
+                // Run the task immediately
+                taskService.GetTask("Automated Backup Service").Run();
 
                 Console.WriteLine("Task created successfully.");
             }
